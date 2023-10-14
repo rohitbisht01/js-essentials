@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  padding: 23px;
+  background-color: rgb(223, 192, 197);
+}
+
+.input-box {
+  border: 1px solid black;
+  padding: 23px;
+}
+
+input,
+textarea {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+
+button {
+  background-color: transparent;
+  padding: 10px 16px;
+  border: 1px solid rgb(83, 72, 74);
+  color: black;
+}
+
+#notes {
+  padding: 23px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.note {
+  border: 1px solid black;
+  width: 300px;
+  padding: 12px;
+  background: transparent;
+}
+
+.deleteNote {
+  float: right;
+}
